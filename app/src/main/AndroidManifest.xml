@@ -13,7 +13,10 @@
         android:theme="@style/Theme.Travel_app"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name=".dashboardActivitty"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".first_UI"
