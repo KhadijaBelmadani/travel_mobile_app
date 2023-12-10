@@ -25,18 +25,18 @@ public class Dashboard extends AppCompatActivity {
     public void nature (View view){
         startActivity(new Intent(this,natural_places.class));
     }
-//
-//    public void emergency(View view) {
-//        startActivity(new Intent(this,emergency.class));
-//    }
-//
+
+    public void emergency(View view) {
+        startActivity(new Intent(this,emergency.class));
+    }
+
 //    public void mountains(View view) {
 //        startActivity(new Intent(this,mountain.class));
 //    }
 //
-//    public void hotels(View view) {
-//        startActivity(new Intent(this,hotel.class));
-//    }
+    public void hotels(View view) {
+        startActivity(new Intent(this,hotel.class));
+    }
 //
 //    public void beaches(View view) {
 //        startActivity(new Intent(this,beaches.class));

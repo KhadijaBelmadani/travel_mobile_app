@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".emergency"
+    android:background="@drawable/backgrn1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Emergency Services"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_margin="20dp"
+
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/para1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:text="The visitors to the country as well as the locals can reach for help in case of a health emergency or in any danger though following numbers. The emergency access numbers could be contacted through all the telephone and mobile operations in the country while many mobile services offering emergency calls despite low signals and low credits. However most of the emergency services are restricted to town centres and suburbs while police stations and hospitals offer emergency care in rural areas." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/para1"
+                android:id="@+id/head"
+                android:text="Advance Preparation"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                />
+
+
+            <TextView
+                android:id="@+id/para2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/head"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:text="&#8226;  Enroll in the Smart Traveler Enrollment Program (STEP) to receive Alerts and make it easier to locate you in an emergency. " />
+
+
+            <TextView
+                android:id="@+id/para4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/para2"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:text="&#8226;  The Centers for Disease Control and Prevention (CDC) has determined Sri Lanka has an unknown level of COVID-19.  Visit the CDC page for the latest Travel Health Information related to your travel.  " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/para4"
+                android:id="@+id/head2"
+                android:text="Emergency Numbers"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:id="@+id/para5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/head2"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:text="&#8226; Police Emergency Hotline 	19 /15" />
+
+            <TextView
+                android:id="@+id/para6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/para5"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="&#8226; Call for ambulances, emergencies.e 141"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/para7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/para6"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="&#8226; Fire and rescue 	15/19/177"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/para8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/para7"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="&#8226; Gendarmerie 077"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/para8"
+                android:layout_margin="10dp"
+                android:id="@+id/para9"
+                android:text="&#8226; Tourist police: 05 24 38 46 01 or 05 24 88 86 80"
+                android:textColor="@color/white"/>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
