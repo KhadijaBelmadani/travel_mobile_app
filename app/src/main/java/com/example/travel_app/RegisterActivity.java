@@ -19,15 +19,10 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
         email=findViewById(R.id.EditText2);
         psw=findViewById(R.id.EditText3);
-        btnlogg=findViewById(R.id.btnlogg);
+        btnlogg=findViewById(R.id.btnlog);
         btnreg=findViewById(R.id.imageView3);
-        btnlogg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(RegisterActivity.this, LoginActivity.class);
-                startActivity(intent);
-            }
-        });
+        dbHelper=new DBHelper(this);
+
         btnreg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,6 +46,13 @@ public class RegisterActivity extends AppCompatActivity {
 
                     }
                 }
+            }
+        });
+        btnlogg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(RegisterActivity.this,LoginActivity.class);
+                startActivity(intent);
             }
         });
     }

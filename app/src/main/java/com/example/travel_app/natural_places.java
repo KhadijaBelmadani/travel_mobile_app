@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class dashboardActivitty extends AppCompatActivity {
+public class natural_places extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashboard_activitty);
+        setContentView(R.layout.activity_natural_places);
     }
 }

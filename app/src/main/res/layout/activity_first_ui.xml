@@ -3,29 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".first_UI">
+    tools:context=".first_UI"
+    android:background="@drawable/sky">
 
 
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-
-        >
-
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
-            android:src="@drawable/sky" />
-
-
-    </ScrollView>
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -49,8 +32,8 @@
         android:layout_centerInParent="true"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="570dp"
+
         android:backgroundTint="#E48400"
         android:text="Get Started"
-
         android:textSize="20sp" />
 </RelativeLayout>
