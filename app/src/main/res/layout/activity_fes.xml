@@ -41,12 +41,12 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="140dp"
-                        android:text="The University of al-Qarawiyyin or al-Karaouine  is a university located in Fes, Morocco.
-
-The al-Qarawiyyin mosque, a religious school / college was founded by Fatima al-Fihri in 859.
-
-."></TextView>
+                        android:layout_marginTop="130dp"
+                        android:layout_marginLeft="40dp"
+                        android:text="The University of al-Qarawiyyin"
+                        android:textStyle="bold|italic"
+                        android:textSize="15dp"
+                        ></TextView>
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -65,9 +65,11 @@ The al-Qarawiyyin mosque, a religious school / college was founded by Fatima al-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="140dp"
-                        android:text="Dar Dbibegh was a historic kasbah or fortified palace located in the countryside near Fez, Morocco.
-."></TextView>
+                        android:layout_marginTop="130dp"
+                        android:text="Dar Dbibegh "
+                        android:textStyle="bold|italic"
+                        android:layout_marginLeft="40dp"
+                        android:textSize="15dp"></TextView>
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -86,8 +88,11 @@ The al-Qarawiyyin mosque, a religious school / college was founded by Fatima al-
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="140dp"
-                        android:text="The city of Medina of Fes prospered in the 13th and 14th century. After its initial rise to fame, it became a flourishing Moroccan city. This ancient city even became a UNESCO World Heritage site.
-."></TextView>
+                        android:textStyle="bold|italic"
+                        android:layout_marginLeft="40dp"
+                        android:textSize="15dp"
+                        android:text="The city of Medina of Fes
+"></TextView>
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -105,9 +110,11 @@ The al-Qarawiyyin mosque, a religious school / college was founded by Fatima al-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="140dp"
-                        android:text="The Al-Attarine Madrasa or Medersa al-Attarine (Arabic: مدرسة العطارين, romanized: madrasat al-ʿattārīn, lit. 'school of the perfumers') is a madrasa in Fes, Morocco, near the Al-Qarawiyyin Mosque.
-."></TextView>
+                        android:layout_marginTop="130dp"
+                        android:text="The Al-Attarine Madrasa "
+                        android:textStyle="bold|italic"
+                        android:layout_marginLeft="40dp"
+                        android:textSize="15dp"></TextView>
 
                     <ImageView
                         android:layout_width="match_parent"

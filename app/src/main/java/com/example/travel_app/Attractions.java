@@ -17,8 +17,8 @@ public class Attractions extends AppCompatActivity {
         fes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Attractions.this, FES.class);
-                startActivity(intent);
+                Intent intent3 = new Intent(Attractions.this, FES.class);
+                startActivity(intent3);
             }
         });
 

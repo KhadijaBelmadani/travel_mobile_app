@@ -23,10 +23,14 @@
             android:name=".beaches"
             android:exported="false" />
         <activity
-            android:name=".mapOuzoud"
+            android:name=".Attractions"
             android:exported="false" />
+
         <activity
             android:name=".hotel"
+            android:exported="false" />
+        <activity
+            android:name=".FES"
             android:exported="false" />
         <activity
             android:name=".emergency"

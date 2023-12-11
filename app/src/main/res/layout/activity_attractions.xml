@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Attractions"
+    android:orientation="vertical"
     android:background="@drawable/top3">
 
     <LinearLayout
@@ -67,11 +68,11 @@
                 >
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:id="@+id/fez"
+
                     >
 
                     <ImageView
@@ -103,7 +104,7 @@
                 >
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
                     android:padding="16dp">
@@ -137,7 +138,7 @@
                 >
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
                     android:padding="16dp">
@@ -205,7 +206,7 @@
                 >
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
                     android:padding="16dp">
@@ -239,7 +240,7 @@
                 >
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
                     android:padding="16dp">
