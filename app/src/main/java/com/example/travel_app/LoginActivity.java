@@ -10,9 +10,9 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
-EditText email,psw;
-ImageView btnlogg,btnreg;
-DBHelper dbHelper;
+    EditText email,psw;
+    ImageView btnlogg,btnreg;
+    DBHelper dbHelper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +34,7 @@ DBHelper dbHelper;
             public void onClick(View v) {
                 boolean isLoggedIn=dbHelper.checkUser(email.getText().toString(),psw.getText().toString());
                 if(isLoggedIn){
-                    Intent intent =new Intent(LoginActivity.this, Dashboard.class);
+                    Intent intent =new Intent(LoginActivity.this, AppUI.class);
                     startActivity(intent);
                 }
                 else{

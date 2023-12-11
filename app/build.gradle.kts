@@ -37,4 +37,12 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation ("org.osmdroid:osmdroid-android:6.0.3")
+    implementation ("com.squareup.okhttp3:okhttp:4.9.1") // Pour les requêtes HTTP
+    implementation ("com.squareup.picasso:picasso:2.5.2")// Pour charger les images à partir d'URL
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.squareup.picasso:picasso:2.8")
+    implementation ("com.google.code.gson:gson:2.8.8")
+
 }
