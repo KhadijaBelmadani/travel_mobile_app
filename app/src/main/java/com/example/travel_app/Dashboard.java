@@ -14,13 +14,23 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class Dashboard extends AppCompatActivity {
-
+ImageView home;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+        home=findViewById(R.id.home1);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Dashboard.this, AppUI.class);
+                startActivity(intent);
+            }
+        });
 
-    }
+        };
+
+
 
     public void nature (View view){
         startActivity(new Intent(this,natural_places.class));
@@ -38,13 +48,13 @@ public class Dashboard extends AppCompatActivity {
         startActivity(new Intent(this,hotel.class));
     }
 //
-//    public void beaches(View view) {
-//        startActivity(new Intent(this,beaches.class));
-//    }
+    public void beaches(View view) {
+        startActivity(new Intent(this,beaches.class));
+    }
 //
-//    public void temple(View view) {
-//        startActivity(new Intent(this,religion.class));
-//    }
+    public void temple(View view) {
+        startActivity(new Intent(this,Religious_places.class));
+    }
 //    public void instructions(View view) {
 //        startActivity(new Intent(this,instructions.class));
 //    }

@@ -73,6 +73,7 @@
                 android:textStyle="bold"
                 android:layout_marginTop="30dp"
                 />
+
             <EditText
                 android:id="@+id/EditText2"
                 android:layout_width="match_parent"
@@ -113,7 +114,8 @@
                 android:layout_below="@id/EditText3"
                 android:layout_marginLeft="320dp"
                 android:layout_marginTop="160dp"
-                android:src="@drawable/btn_arraw1" />
+                android:src="@drawable/btn_arraw1"
+                android:rotationY="180"/>
 
             <EditText
                 android:id="@+id/EditText3"

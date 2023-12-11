@@ -96,7 +96,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="You are a new user?"
+                android:text="Are you a new user?"
                 android:layout_below="@id/button3"
                 android:textAlignment="center"
                 android:layout_centerHorizontal="true"
@@ -113,7 +113,8 @@
                 android:layout_below="@id/EditText3"
                 android:layout_marginLeft="320dp"
                 android:layout_marginTop="160dp"
-                android:src="@drawable/btn_arraw1" />
+                android:src="@drawable/btn_arraw1"
+                android:rotationY="180"/>
 
             <EditText
                 android:id="@+id/EditText3"

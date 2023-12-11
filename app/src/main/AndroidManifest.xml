@@ -20,10 +20,10 @@
             android:name=".SignUp"
             android:exported="false" />
         <activity
-            android:name=".beaches"
+            android:name=".Religious_places"
             android:exported="false" />
         <activity
-            android:name=".mapOuzoud"
+            android:name=".beaches"
             android:exported="false" />
         <activity
             android:name=".hotel"

@@ -18,7 +18,7 @@ public class first_UI extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(first_UI.this, RegisterActivity.class);
+                Intent intent = new Intent(first_UI.this, LoginActivity.class);
                 startActivity(intent);
             }
         });
