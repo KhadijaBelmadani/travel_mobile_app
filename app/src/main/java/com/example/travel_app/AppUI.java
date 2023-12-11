@@ -41,8 +41,10 @@ public class AppUI extends AppCompatActivity {
     private ImageView dashboard;
     private ImageView profile;
     private ImageView like;
+    private ImageView hotellist;
 
     private OkHttpClient client;
+    private ImageView attractions;
 
 
     @Override
@@ -55,13 +57,29 @@ public class AppUI extends AppCompatActivity {
         dashboard= findViewById(R.id.dash);
         profile = findViewById(R.id.profile);
         like = findViewById(R.id.like);
+        hotellist = findViewById(R.id.hotel);
+        attractions= findViewById(R.id.attraction);
         client = new OkHttpClient();
-
+attractions.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        Intent intent2 = new Intent(AppUI.this,Attractions.class);
+        startActivity(intent2);
+    }
+});
         dashboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AppUI.this, Dashboard.class);
                 startActivity(intent);
+            }
+        });
+        hotellist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(AppUI.this,hotel.class);
+                startActivity(intent1);
+
             }
         });
         searchEditText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
