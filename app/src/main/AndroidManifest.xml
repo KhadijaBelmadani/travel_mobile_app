@@ -23,14 +23,17 @@
             android:name=".beaches"
             android:exported="false" />
         <activity
+            android:name=".Religious_places"
+            android:exported="false" />
+        <activity
             android:name=".Attractions"
+            android:exported="false" />
+        <activity
+            android:name=".FES"
             android:exported="false" />
 
         <activity
             android:name=".hotel"
-            android:exported="false" />
-        <activity
-            android:name=".FES"
             android:exported="false" />
         <activity
             android:name=".emergency"
